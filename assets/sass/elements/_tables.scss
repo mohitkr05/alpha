@@ -1,0 +1,10 @@
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+	@extend .table;
+	@extend .table-striped;
+}
+
+th {
+	font-weight: bold;
+}
